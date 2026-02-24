@@ -167,8 +167,8 @@ p{
     color: #ffffff;
 }
 
-.third-navigation ul li::marker{
-    content: none;
+.skills-bar{
+    list-style: none;
 }
 
 .skills-bar{
