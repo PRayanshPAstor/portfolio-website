@@ -2,19 +2,34 @@ html{
     scroll-behavior: smooth;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background: linear-gradient(135deg, #0B1324, #0F1C2E);
     background: radial-gradient(circle at 30% 40%, #0f172a, #070d1a 70%);
     overflow-x: hidden;
+    font-family: -apple-system, 'Segoe UI', 'Inter', 'Poppins', 'Montserrat', 'Playfair Display', 'Roboto', sans-serif, Arial;
 }
 
 section{
-    margin-block: 100px;
+    margin-block: 60px;
+}
+
+/* Small screens */
+@media (max-width: 640px) {
+    section {
+        margin-block: 40px;
+    }
 }
 
 .wrapper{
-    max-inline-size: 1000px;
+    max-inline-size: 1200px;
     margin-inline: auto;
+    padding-inline: 20px;
 }
 
 header{
