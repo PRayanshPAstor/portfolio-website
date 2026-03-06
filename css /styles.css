@@ -372,7 +372,7 @@ p {
     background-color: #162e68;
     background: linear-gradient(90deg, #061338, #16409ce1);
     padding: 35px;
-    margin-top: -78px;
+    margin-top: -80px;
     border-radius: 50px;
     flex-wrap: wrap;
     gap: 20px;
@@ -387,7 +387,7 @@ p {
 @media (max-width: 1024px) {
     .skills-bar {
         padding: 25px;
-        margin-top: -50px;
+        margin-top: -79px;
     }
 }
 
